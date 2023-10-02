@@ -1,0 +1,126 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:orange;
+}
+
+header {
+    background-color:white;
+    color:blue;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color:palegreen;
+}
+
+section ul {
+    list-style-type: square;
+}
+
+footer {
+    background-color:forestgreen;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.social-icons a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.social-icons i {
+    transition: color 0.3s;
+}
+
+.social-icons a:hover i {
+    color: midnightblue;
+}
+img.profile-pic {
+    width: 1500px; /* Ajustez la largeur selon vos préférences */
+    height: 200px; /* Ajustez la hauteur selon vos préférences */
+    border: 2px solid #333; /* Bordure de 2 pixels en couleur sombre */
+    border-radius: 50%; /* Arrondir les bords pour une forme circulaire */
+}
+
+/* Ajoutez ces styles dans votre fichier CSS 
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+/*
+
+.navigation {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin: 0 10px;
+}
+
+.menu-toggle {
+    display: none; /* Masquer le bouton de menu sur les grands écrans 
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+ Ajoutez ces styles dans votre fichier CSS 
+
+@media screen and (max-width: 768px) {
+    .navigation {
+        display: none; /* Masquer le menu par défaut sur les petits écrans 
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        background-color: #333;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        margin-top: 5px;
+    }
+
+    .navigation.active {
+        display: flex; /* Afficher le menu lorsque le bouton de menu est cliqué 
+    }
+
+    .navigation li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: flex; /* Afficher le bouton de menu sur les petits écrans 
+    }
+}
+*/
